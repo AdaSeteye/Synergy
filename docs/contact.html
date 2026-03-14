@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Synergy Steelcraft</title>
+  <meta name="description" content="Contact Synergy Steelcraft for stainless steel water tanks, handrails, shelves, tables and custom fabrications.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header-inner">
+      <a href="index.html" class="logo" aria-label="Synergy Steelcraft home">
+        <span class="logo-mark" aria-hidden="true">
+          <img src="6.png" alt="" class="logo-s-img">
+        </span>
+        <span class="logo-text">Synergy Steelcraft</span>
+      </a>
+      <nav class="nav" aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="service.html">Service</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle menu" type="button">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="contact page-section">
+      <div class="container">
+        <div class="contact-grid">
+          <div class="contact-info">
+            <span class="section-label">Get in Touch</span>
+            <h2 class="section-title">Start Your Project</h2>
+            <p>Tell us about your stainless steel needs: water tanks, handrails, shelves, tables or custom fabrications. We’ll respond promptly with a clear price estimate and timeline.</p>
+            <div class="contact-details">
+              <p><strong>Phone</strong><br><a href="tel:+251922882664">+251922882664</a></p>
+              <p><strong>Email</strong><br><a href="mailto:tar2288gib@gmail.com">tar2288gib@gmail.com</a></p>
+              <p class="contact-offer-heading"><strong>We offer</strong></p>
+              <ul class="contact-offer-list">
+                <li>Price estimate</li>
+                <li>Custom design</li>
+                <li>Consultation</li>
+              </ul>
+            </div>
+          </div>
+          <form class="contact-form" action="#" method="post">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required placeholder="Your name">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required placeholder="your@email.com">
+            <label for="project">Project type</label>
+            <select id="project" name="project">
+              <option value="">Select...</option>
+              <option value="water-tanks">Water Tanks</option>
+              <option value="handrails">Handrails</option>
+              <option value="shelves">Shelves</option>
+              <option value="tables">Tables</option>
+              <option value="custom">Custom Fabrication</option>
+              <option value="other">Other</option>
+            </select>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required placeholder="Describe your project or enquiry..."></textarea>
+            <button type="submit" class="btn btn-primary">Send Enquiry</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <a href="index.html" class="logo" aria-label="Synergy Steelcraft home">
+          <span class="logo-mark" aria-hidden="true">
+            <img src="6.png" alt="" class="logo-s-img">
+          </span>
+          <span class="logo-text">Synergy Steelcraft</span>
+        </a>
+        <p class="footer-tagline">Stainless steel fabrication with considerate service.</p>
+        <nav class="footer-nav">
+          <a href="products.html">Products</a>
+          <a href="service.html">Service</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <p class="footer-copy">&copy; <span id="year"></span> Synergy Steelcraft. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -317,6 +317,10 @@ a:hover {
 }
 
 /* ----- About ----- */
+.page-section {
+  padding-top: 5.5rem;
+}
+
 .about {
   padding: var(--space-3xl) 0;
   background: var(--bg-card);
